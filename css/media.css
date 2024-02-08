@@ -1,4 +1,148 @@
-@media (max-width:375px){
+/* responsive:1024px */
+@media(max-width:1024px){
+    .div-box-3{
+        flex-direction: column;
+    }
+
+
+    
+        .left-div-3 {
+            width: 100%;
+        }
+    
+        .right-div3 {
+            width: 100%;
+            display: flex;
+            column-gap: 129px;
+        }
+    
+        .left-box {
+            flex-direction: column;
+        }
+    
+        .div1-img {
+            width: 100%;
+        }
+    
+        
+        }
+    
+        .div-end {
+            width: 630px;
+            align-items: center;
+            text-align: center;
+            padding: 0px 70px;
+            margin-bottom: 68px;
+        }
+    
+        .left-p1 {
+            width: 370px;
+            text-align: center;
+        }
+    
+    
+    
+    
+    /* responsive:744px */
+    @media (max-width:744px) {
+        .left-h {
+            width: 696px;
+            text-align: center;
+            font-size: 40px;
+            line-height: 48.5px;
+        }
+    
+        .div-end {
+            flex-direction: column;
+        }
+    
+    
+    
+        .div-box {
+            flex-direction: column;
+            width: 744px;
+        }
+    .div-box-1
+     {width: 744px;}
+    
+    
+        .div-box-3 {
+            flex-direction: column;
+            row-gap: 29px;
+    
+        }
+    
+        .left-div-3 {
+            width: 100%;
+        }
+    
+        .right-div-3 {
+            width: 100%;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .p2-item {
+            margin-top: 29px;
+            margin-bottom: 29px;
+        }
+    }
+    
+    /* responsive:375px */
+    
+    @media (max-width:375px) {
+        .ul-cl{
+            display: none;
+        }
+        .fa-bars{
+            display: block;
+        }
+        .header-div{
+            display: none;
+        .div-1 {
+            display: inline-block;
+        }
+    
+        .left-h {
+            width: 327px;
+            letter-spacing: -1px;
+            text-align: center;
+        }
+    
+        .left-p {
+            width: 327px;
+        }
+    
+        .div-end {
+            width: 327px;
+        }
+    
+        .left-p1 {
+            width: 327px;
+            line-height: 28px;
+            margin-top: 16px;
+            margin-bottom: 24px;
+        }
+    
+
+    
+        .div-box-3 {
+            row-gap: 14px;
+        }
+    
+        .p2-item {
+            margin-top: 14px;
+            margin-bottom: 14px;
+        }
+    
+        
+        }
+    
+
+
+
     .ul-cl{
         display: none;
     }
@@ -10,9 +154,5 @@
     }
 }
 
-@media(max-width:1024px){
-    .div-box-3{
-        flex-direction: column;
-    }
 
-}
+
